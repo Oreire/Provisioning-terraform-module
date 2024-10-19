@@ -4,19 +4,20 @@
 
 # dev infrastructure creation (2 nodes) 
     cd dev
-    Supply AWS credentials
+    export AWS_ACCESS_KEY_ID=
+    export AWS_SECRET_KEY_ID=
     terraform init
     terraform apply -var-file=dev.tfvars
 
 # prod infrastructure creation (3 nodes)
     cd prod
-    Supply AWS credentials
+    export AWS_ACCESS_KEY_ID=
+    export AWS_SECRET_KEY_ID=
     terraform init
     terraform apply -var-file=prod.tfvars
 
 # Dynamic provision of backend storage (S3 bucket) 
-    Attributes supplied as environment variables  
-    Attributes stored securely in dev.tfvars & prod.tfvars files
-
+    S3 attributes supplied as environment variables  
+    
 
  
