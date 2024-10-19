@@ -17,7 +17,10 @@
     terraform apply -var-file=prod.tfvars
 
 # Dynamic provision of backend storage (S3 bucket) 
-    S3 attributes supplied as environment variables  
+    S3 environment variables 
+      Input buckect name 
+      Input key value
+
     
 
  
