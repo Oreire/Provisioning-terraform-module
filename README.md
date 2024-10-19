@@ -18,7 +18,7 @@
 
 # Dynamic provision of backend storage (S3 bucket) 
     S3 environment variables 
-      Input buckect name 
+      Input bucket name 
       Input key value
 
     
