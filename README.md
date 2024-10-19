@@ -1,13 +1,14 @@
 
-# Creation of EC2 nodes for Developmnet & Production environments 
+# Creation of EC2 & Security Group Modules
+ 
 
-# dev infrastructure creation
+# dev infrastructure creation (2 nodes) 
     cd dev
     Supply AWS credentials
     terraform init
     terraform apply -var-file=dev.tfvars
 
-# prod infrastructure creation
+# prod infrastructure creation (3 nodes)
     cd prod
     Supply AWS credentials
     terraform init
