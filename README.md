@@ -13,7 +13,7 @@
     terraform init
     terraform apply -var-file=prod.tfvars
 
-# Dynamic provision or configuration of backend storage (S3 bucket) 
+# Dynamic provision of backend storage (S3 bucket) 
     Attributes supplied as environment variables  
     Attributes stored securely in dev.tfvars & prod.tfvars files
 
